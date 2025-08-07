@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.logo {
+  height: 80px;
+}
+
+.logo-bar h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.photo-credit {
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.right-panel {
+  flex: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-text {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #111827;
+}
+
+.intro-text h2 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.form-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #6366f1;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: #4f46e5;
+}
+
+.submit-section p {
+  font-size: 0.9rem;
+}
+
+.submit-section a {
+  color: #1d4ed8;
+  text-decoration: none;
+  font-weight: 600;
+}
